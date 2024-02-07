@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Door Lock Hallway Override
+  m_Controller: {fileID: 9100000, guid: c2c53caac31db9c44a01a19928a68acd, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 8abfe310ccee5d844863c044133fee34, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9ada4e8411535084199b9921aca55916, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 39bea42f109ea0b479cf0ca0e6c37c01, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 46702e1dc0dce1b47a3bf6ecd1654bd9, type: 2}

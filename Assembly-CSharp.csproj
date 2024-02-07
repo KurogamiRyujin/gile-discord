@@ -1,0 +1,1717 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{EBA3D165-DE31-A797-0FBB-61D29CCFD933}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_8;UNITY_2018_3;UNITY_2018;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_RUNTIME_PERMISSIONS;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\_Cutscenes\Scripts\IntroCutscene.cs" />
+     <Compile Include="Assets\_Scenes\Candy\BG\StabilityBackground.cs" />
+     <Compile Include="Assets\_Scenes\Candy\BG\StableElement.cs" />
+     <Compile Include="Assets\_Scenes\Candy\BG\UnstableElement.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Congratulations\CongratulationsCanvas.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Congratulations\CongratulationsChild.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Congratulations\CongratulationsImage.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Congratulations\CongratulationsImageManager.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Interactable\InteractableTag.cs" />
+     <Compile Include="Assets\_Scenes\Candy\NumberLineEdit\StabilityMaxPointLabelListener.cs" />
+     <Compile Include="Assets\_Scenes\Candy\NumberLineEdit\StabilityMinPointLabelListener.cs" />
+     <Compile Include="Assets\_Scenes\Candy\NumberLineEdit\StabilityNumberLineAnimatable.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\BlockManager\BlockManager.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\BlockManager\HollowBlockManager.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\BlockManager\SkinPackage.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\BrokenObject\BrokenClone.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\BrokenObject\BrokenFractionLabel.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\BrokenObject\BrokenObject.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\BrokenObject\BrokenOriginal.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\BrokenObject\BrokenPiece.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\BrokenObject\ChangeFractionLabelLayer.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\BrokenObject\ChangeLineRendererLayer.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\BrokenObject\ChangeSpriteRendererBrokenOriginal.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\BrokenObject\CraftedPiece.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\SingleActionObserver.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\SingleTriggerObserver.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\SingleTriggerTouchObserver.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerBlockFilled3.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerBoxFix.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerBreakRoom.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerCantTouch.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerCharmSpotted.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerCurious.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerDoorLocked.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerDoorSpotted.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerDoorUpAhead.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerHollowBlockBroken.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerJump.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerLookDown.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerMovement.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerOnElevator.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerOnMovingPlatform.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerOnPlatform.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerPortalSpotted.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerPreBoss1.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerPreBoss2.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerPreBoss3.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerPush.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerShowPickupItem.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerSkyBlockBroken.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerSkyBlockBroken2.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerSkyBlockHit.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerSkyBlockSpotted.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerSkyBlockWholeListener.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerSkyboxBreak.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerSkyfall.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerSkyFragment.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Cutscenes\TriggerSpottedHammer.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Door\BossDoorMarker.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Door\SlidingDoor.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\HintBox\DialogueHintResults.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\HintBox\MissionManager.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\HollowBlock\FilledBlock.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\HollowBlock\HintBubbleHollowStability.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\HollowBlock\HollowBlock.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\HollowBlock\HollowBlockHorizontalContainer.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\HollowBlock\HollowBlockParent.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\HollowBlock\HollowBlockSkyPieceContainer.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\HollowBlock\HollowSkyFragmentPiece.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\HollowBlock\LiftAbility.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\HollowBlock\PlayerLift.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\ItemContainer\ItemContainerAnimatable.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\ItemContainer\TutorialAnimatable.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\ItemContainer\YarnballImage.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\ItemPickup\CharmNumberListener.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\ItemPickup\CharmPickupUI.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\ItemPickup\HammerPickupUI.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\ItemPickup\NeedlePickupUI.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\ItemPickup\PickupUI.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\ItemPickup\PickupUIParent.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\ItemPickup\ThreadPickupUI.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\LineRenderer\LineRendererScaler.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Menu\ButtonContainer.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Menu\CheckpointContainer.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Menu\CheckpointController.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Menu\MenuController.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Menu\PanelConfirmHome.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Menu\PanelConfirmPlay.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Menu\PanelConfirmQuit.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\MobileSetup\HintColorPressed.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\MobileSetup\NoSwitchButtonCheck.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\MovingPlatform\ManualPlatformImage.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\MovingPlatform\PlatformLock.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\MovingPlatform\SkyPieceAbyss.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Portal\Portal.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Portal\PortalSource.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\SkyBlock\AttachedManager.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\SkyBlock\DetachedManager.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\SkyBlock\SkyBlock.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\SkyBlock\SkyFragment.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\SkyBlock\SkyFragmentBlock.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\SkyBlock\SkyFragmentPiece.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\StabilityAnimatables\BreakUIAnimatable.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\StabilityAnimatables\StableUIAnimatable.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\StabilityLine\FixedLineRenderer.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\StabilityLine\FixedNumberLine.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\StabilityLine\TargetMarker.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\CarryItemsScreenParent.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\FixingBlocksScreenParent.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\HelpHideListener.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\ScreenParent.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\SlidingDoorAnimatable.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\SubdividingScreenParent.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\TutorialCloseHideListener.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\TutorialItems.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\TutorialItemsAnimatable.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\TutorialList.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\TutorialScreen.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\TutorialScreenAnimatable.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\TutorialScreenCanvas.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\UnstableRoomsScreenParent.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\UsingHammerScreenParent.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\UsingNeedleScreenParent.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Tutorials\UsingPowerCharmsScreenParent.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\UICarriedPiece\CarriedPiece.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\UICarriedPiece\SkyFragmentPieceUI.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\UICarriedPiece\YarnballUI.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\UICarriedPiece\YarnballValue.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Scripts\Yuni\YuniNeedleListener.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Tutorial\ArrowGlow.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Tutorial\CarryGlow.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Tutorial\GlowManager.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Tutorial\HealthGlow.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Tutorial\ItemGlow.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Tutorial\JumpGlow.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Tutorial\StabilityGlow.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Tutorial\SwitchGlow.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Tutorial\TutorialGlow.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Tutorial\TutorialGlowManager.cs" />
+     <Compile Include="Assets\_Scenes\Candy\Tutorial\YarnGlow.cs" />
+     <Compile Include="Assets\_Scripts\Acrobat\Boss Gambits\Ringleader\Bullet.cs" />
+     <Compile Include="Assets\_Scripts\Acrobat\Boss Gambits\Ringleader\BulletDamage.cs" />
+     <Compile Include="Assets\_Scripts\Acrobat\Boss Gambits\Ringleader\BulletHell.cs" />
+     <Compile Include="Assets\_Scripts\Acrobat\Boss Gambits\Ringleader\BulletShooter.cs" />
+     <Compile Include="Assets\_Scripts\Acrobat\DetonatingTrampolinePlatformPiece.cs" />
+     <Compile Include="Assets\_Scripts\Acrobat\LampManager.cs" />
+     <Compile Include="Assets\_Scripts\Acrobat\TrampolinePlatform.cs" />
+     <Compile Include="Assets\_Scripts\Acrobat\TrampolinePlatformStatic.cs" />
+     <Compile Include="Assets\_Scripts\Audio\AudioManager.cs" />
+     <Compile Include="Assets\_Scripts\Audio\BGMController.cs" />
+     <Compile Include="Assets\_Scripts\Audio\CheckAudioManager.cs" />
+     <Compile Include="Assets\_Scripts\Audio\SFXController.cs" />
+     <Compile Include="Assets\_Scripts\Audio\SwitchMusicOnLoad.cs" />
+     <Compile Include="Assets\_Scripts\AutoMoveCrate.cs" />
+     <Compile Include="Assets\_Scripts\AutoThrowNeedle.cs" />
+     <Compile Include="Assets\_Scripts\Broadcasting\EventBroadcaster.cs" />
+     <Compile Include="Assets\_Scripts\Broadcasting\EventNames.cs" />
+     <Compile Include="Assets\_Scripts\Broadcasting\ObserverList.cs" />
+     <Compile Include="Assets\_Scripts\Broadcasting\Parameters.cs" />
+     <Compile Include="Assets\_Scripts\CameraDeadzone.cs" />
+     <Compile Include="Assets\_Scripts\CameraZoom.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\AIController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\BulletController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\CameraController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\CloneObjectController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\CutsceneController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\DashController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\ExchangeCornerUIControl.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\FillController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\HollowObjectController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\Jump\Jump.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\Jump\JumpController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\NeedleController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\PartitionController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\PauseController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\Player\PhysicsMovement.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\Player\PlayerInput.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\SceneObjectsController.cs" />
+     <Compile Include="Assets\_Scripts\CursorHover.cs" />
+     <Compile Include="Assets\_Scripts\Cuscenes\Ringleader\RingleaderEncounter.cs" />
+     <Compile Include="Assets\_Scripts\Cuscenes\Tutorials\EnemySightedTrigger.cs" />
+     <Compile Include="Assets\_Scripts\Cuscenes\Tutorials\HammerAndEnemyTutorial.cs" />
+     <Compile Include="Assets\_Scripts\Cuscenes\Tutorials\LCDTutorial.cs" />
+     <Compile Include="Assets\_Scripts\Cuscenes\Tutorials\PuzzleSolvingTutorial.cs" />
+     <Compile Include="Assets\_Scripts\Cuscenes\Tutorials\Spool Tutorial\FirstTimeFallTrigger.cs" />
+     <Compile Include="Assets\_Scripts\Cuscenes\Tutorials\Spool Tutorial\SpoolPickupNotif.cs" />
+     <Compile Include="Assets\_Scripts\Cuscenes\Tutorials\ThreadTutorial.cs" />
+     <Compile Include="Assets\_Scripts\Cuscenes\Tutorials\TutorialCutscene.cs" />
+     <Compile Include="Assets\_Scripts\Cuscenes\Tutorials\YarnballTutorial.cs" />
+     <Compile Include="Assets\_Scripts\Cutscene.cs" />
+     <Compile Include="Assets\_Scripts\CutscenePersistent.cs" />
+     <Compile Include="Assets\_Scripts\Data\DataManager.cs" />
+     <Compile Include="Assets\_Scripts\Data\EnemyEntry.cs" />
+     <Compile Include="Assets\_Scripts\Data\Entry.cs" />
+     <Compile Include="Assets\_Scripts\Data\LCDEntry.cs" />
+     <Compile Include="Assets\_Scripts\Data\New Implementation\AttemptedAnswer.cs" />
+     <Compile Include="Assets\_Scripts\Data\New Implementation\DataManagerv2.cs" />
+     <Compile Include="Assets\_Scripts\Data\New Implementation\DataRecorder.cs" />
+     <Compile Include="Assets\_Scripts\Data\New Implementation\FractionData.cs" />
+     <Compile Include="Assets\_Scripts\Data\New Implementation\HollowBlockEntry.cs" />
+     <Compile Include="Assets\_Scripts\Data\New Implementation\PlayerDatav2.cs" />
+     <Compile Include="Assets\_Scripts\Data\New Implementation\SceneTag.cs" />
+     <Compile Include="Assets\_Scripts\Data\New Implementation\SceneTopic.cs" />
+     <Compile Include="Assets\_Scripts\Data\PlayerData.cs" />
+     <Compile Include="Assets\_Scripts\Data\POEntry.cs" />
+     <Compile Include="Assets\_Scripts\Data\StringConstants.cs" />
+     <Compile Include="Assets\_Scripts\Data\V3\AttemptedAnswerv2.cs" />
+     <Compile Include="Assets\_Scripts\Data\V3\DataManagerv3.cs" />
+     <Compile Include="Assets\_Scripts\Data\V3\DataRecorderv2.cs" />
+     <Compile Include="Assets\_Scripts\Data\V3\HollowBlockEntryv2.cs" />
+     <Compile Include="Assets\_Scripts\Data\V3\PlayerDatav3.cs" />
+     <Compile Include="Assets\_Scripts\Data\V3\SessionTopic.cs" />
+     <Compile Include="Assets\_Scripts\Data\V3\StabilizationSession.cs" />
+     <Compile Include="Assets\_Scripts\Data\V3\Utils\SubsetSumFractions.cs" />
+     <Compile Include="Assets\_Scripts\Data\V3\Utils\SubsetSumTest.cs" />
+     <Compile Include="Assets\_Scripts\Dialogue\Dialogue.cs" />
+     <Compile Include="Assets\_Scripts\Dialogue\DialogueManager.cs" />
+     <Compile Include="Assets\_Scripts\Dialogue\DialogueTrigger.cs" />
+     <Compile Include="Assets\_Scripts\DynamicRavine.cs" />
+     <Compile Include="Assets\_Scripts\Elevator\ElevatorEnemySpawner.cs" />
+     <Compile Include="Assets\_Scripts\Elevator\ElevatorLeftCollider.cs" />
+     <Compile Include="Assets\_Scripts\Elevator\ElevatorMovement.cs" />
+     <Compile Include="Assets\_Scripts\Elevator\ElevatorRightCollider.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\BaseEnemy.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\Basic\EnemyCollisionDamage.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\EnemyAttack.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\EnemyHealth.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\EnemyList.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\EnemyMovementController.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\EnemySpawner.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\FrontCollider.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\Lion\FireballLionSpawn.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\Lion\LionDoll.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\Lion\LionPhantom.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\Lion\TestLionSpawnControl.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\PopcornAttack.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\Ringleader Scripts\RingleaderAttack.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\Ringleader Scripts\RingleaderAttack_v2.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\Ringleader Scripts\RingleaderController.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\Ringleader Scripts\RingleaderHealth.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\Ringleader Scripts\RingleaderMovement.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\Ringleader Scripts\RingleaderNormalAttackHazard.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\Spawnable.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\Teleport.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\TestEnemy.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\WanderingEnemy.cs" />
+     <Compile Include="Assets\_Scripts\EventManager.cs" />
+     <Compile Include="Assets\_Scripts\Fractions Controllers\Fractionable.cs" />
+     <Compile Include="Assets\_Scripts\Fractions Controllers\FractionsReference.cs" />
+     <Compile Include="Assets\_Scripts\GemClassification\GemClassificationManager.cs" />
+     <Compile Include="Assets\_Scripts\HealthUI.cs" />
+     <Compile Include="Assets\_Scripts\HealthUITrigger.cs" />
+     <Compile Include="Assets\_Scripts\Hint.cs" />
+     <Compile Include="Assets\_Scripts\IgnoreCollision.cs" />
+     <Compile Include="Assets\_Scripts\Interactable.cs" />
+     <Compile Include="Assets\_Scripts\Listeners\LCDCrosshairListener.cs" />
+     <Compile Include="Assets\_Scripts\MobileUI.cs" />
+     <Compile Include="Assets\_Scripts\MobileUIController.cs" />
+     <Compile Include="Assets\_Scripts\Models\Abyss.cs" />
+     <Compile Include="Assets\_Scripts\Models\CutsceneJSONParams.cs" />
+     <Compile Include="Assets\_Scripts\Models\DeathTrap.cs" />
+     <Compile Include="Assets\_Scripts\Models\Entrance.cs" />
+     <Compile Include="Assets\_Scripts\Models\ExchangeCorner.cs" />
+     <Compile Include="Assets\_Scripts\Models\Fractions\LCDInterface.cs" />
+     <Compile Include="Assets\_Scripts\Models\Fractions\LCDNumberLine.cs" />
+     <Compile Include="Assets\_Scripts\Models\HammerObject.cs" />
+     <Compile Include="Assets\_Scripts\Models\NeedleObject.cs" />
+     <Compile Include="Assets\_Scripts\Models\NeedleThrowing.cs" />
+     <Compile Include="Assets\_Scripts\Models\NumberLineSwitch.cs" />
+     <Compile Include="Assets\_Scripts\Models\NumberLineSwitchClone.cs" />
+     <Compile Include="Assets\_Scripts\Models\PartitionableObject.cs" />
+     <Compile Include="Assets\_Scripts\Models\PartitionableObjectJSONParams.cs" />
+     <Compile Include="Assets\_Scripts\Models\PartitionableObjectMarker.cs" />
+     <Compile Include="Assets\_Scripts\Models\PartitionedClone.cs" />
+     <Compile Include="Assets\_Scripts\Models\PickupObject.cs" />
+     <Compile Include="Assets\_Scripts\Models\Platforms\DetonatingPlatform.cs" />
+     <Compile Include="Assets\_Scripts\Models\Platforms\DetonatingPlatformPiece.cs" />
+     <Compile Include="Assets\_Scripts\Models\Platforms\PartitionablePlatform.cs" />
+     <Compile Include="Assets\_Scripts\Models\Platforms\RespawningPlatform.cs" />
+     <Compile Include="Assets\_Scripts\Models\Platforms\RobinHoodGambitPlatform.cs" />
+     <Compile Include="Assets\_Scripts\Models\PlayerHealth.cs" />
+     <Compile Include="Assets\_Scripts\Models\PlayerJSONParams.cs" />
+     <Compile Include="Assets\_Scripts\Models\PointerLabel.cs" />
+     <Compile Include="Assets\_Scripts\Models\PointerLabelClone.cs" />
+     <Compile Include="Assets\_Scripts\Models\SceneNames.cs" />
+     <Compile Include="Assets\_Scripts\Models\SpawnPoint.cs" />
+     <Compile Include="Assets\_Scripts\Models\Yarnball\Yarnball.cs" />
+     <Compile Include="Assets\_Scripts\Models\Yarnball\YarnballControl.cs" />
+     <Compile Include="Assets\_Scripts\Models\Yarnball\YarnballPedestal.cs" />
+     <Compile Include="Assets\_Scripts\Models\Yarnball\YarnballProjectile.cs" />
+     <Compile Include="Assets\_Scripts\MovementTutorialCutscene.cs" />
+     <Compile Include="Assets\_Scripts\Parallax\ButtonEffectWiggle.cs" />
+     <Compile Include="Assets\_Scripts\Parallax\DollyZoom.cs" />
+     <Compile Include="Assets\_Scripts\Parallax\Exit.cs" />
+     <Compile Include="Assets\_Scripts\Parallax\FadeScript.cs" />
+     <Compile Include="Assets\_Scripts\Parallax\GuardScript.cs" />
+     <Compile Include="Assets\_Scripts\Parallax\ParallaxBackground.cs" />
+     <Compile Include="Assets\_Scripts\Parallax\SettingsScene.cs" />
+     <Compile Include="Assets\_Scripts\Parallax\TimerScript.cs" />
+     <Compile Include="Assets\_Scripts\PartitionablePhysicsObject.cs" />
+     <Compile Include="Assets\_Scripts\PhysicsObject.cs" />
+     <Compile Include="Assets\_Scripts\PickupHammer.cs" />
+     <Compile Include="Assets\_Scripts\PickupNeedle.cs" />
+     <Compile Include="Assets\_Scripts\PickupThread.cs" />
+     <Compile Include="Assets\_Scripts\PlayerAttack.cs" />
+     <Compile Include="Assets\_Scripts\PlayerPlatformerController.cs" />
+     <Compile Include="Assets\_Scripts\PlayerPush.cs" />
+     <Compile Include="Assets\_Scripts\RavinePiece.cs" />
+     <Compile Include="Assets\_Scripts\RespawningBlocks.cs" />
+     <Compile Include="Assets\_Scripts\Reusables\Constants.cs" />
+     <Compile Include="Assets\_Scripts\Reusables\General.cs" />
+     <Compile Include="Assets\_Scripts\Reusables\ListExtensions.cs" />
+     <Compile Include="Assets\_Scripts\Reusables\OnTouch.cs" />
+     <Compile Include="Assets\_Scripts\Reusables\ParticleEffect.cs" />
+     <Compile Include="Assets\_Scripts\State Managers\DoorStateManager.cs" />
+     <Compile Include="Assets\_Scripts\UI\FloatingButtonHint.cs" />
+     <Compile Include="Assets\_Scripts\UI\PlayerUIHealthManager.cs" />
+     <Compile Include="Assets\_Scripts\UI\SceneTitleTrigger.cs" />
+     <Compile Include="Assets\_Scripts\Utils\AreaTrigger.cs" />
+     <Compile Include="Assets\_Scripts\Utils\CameraFocus.cs" />
+     <Compile Include="Assets\_Scripts\Utils\CloneBuilder.cs" />
+     <Compile Include="Assets\_Scripts\Utils\CurrentPointerNumberLine.cs" />
+     <Compile Include="Assets\_Scripts\Utils\DestroyOnFall.cs" />
+     <Compile Include="Assets\_Scripts\Utils\DestroyWithDelay.cs" />
+     <Compile Include="Assets\_Scripts\Utils\IgnorePause.cs" />
+     <Compile Include="Assets\_Scripts\Utils\LCDSegmentCollider.cs" />
+     <Compile Include="Assets\_Scripts\Utils\LeverCollisionDetection.cs" />
+     <Compile Include="Assets\_Scripts\Utils\Levitation.cs" />
+     <Compile Include="Assets\_Scripts\Utils\ObjectStateManager.cs" />
+     <Compile Include="Assets\_Scripts\Utils\PlayerDeathManager.cs" />
+     <Compile Include="Assets\_Scripts\Utils\PlayerManager.cs" />
+     <Compile Include="Assets\_Scripts\Utils\Puppet.cs" />
+     <Compile Include="Assets\_Scripts\Utils\SegmentCollider.cs" />
+     <Compile Include="Assets\_Scripts\Utils\SingleInstanceManager.cs" />
+     <Compile Include="Assets\_Scripts\Utils\SpawnPointManager.cs" />
+     <Compile Include="Assets\_Scripts\Utils\TutorialBoxDialogueTrigger.cs" />
+     <Compile Include="Assets\_Scripts\Utils\UITriggerCollider.cs" />
+     <Compile Include="Assets\_Scripts\WolfController.cs" />
+     <Compile Include="Assets\_Scripts\Zoom.cs" />
+     <Compile Include="Assets\_Scripts_v2\Animatable\Animatable.cs" />
+     <Compile Include="Assets\_Scripts_v2\Animatable\AnimatableClass.cs" />
+     <Compile Include="Assets\_Scripts_v2\Animatable\ElevatorAnimatable.cs" />
+     <Compile Include="Assets\_Scripts_v2\Animatable\EnemyHealthAnimatable.cs" />
+     <Compile Include="Assets\_Scripts_v2\Animatable\HammerUIAnimatable.cs" />
+     <Compile Include="Assets\_Scripts_v2\Animatable\ManualLeverAnimatable.cs" />
+     <Compile Include="Assets\_Scripts_v2\Animatable\NeedleUIAnimatable.cs" />
+     <Compile Include="Assets\_Scripts_v2\Animatable\PedestalAnimatable.cs" />
+     <Compile Include="Assets\_Scripts_v2\Animatable\ResultSuccessAnimatable.cs" />
+     <Compile Include="Assets\_Scripts_v2\Animatable\RingleaderAnimatable.cs" />
+     <Compile Include="Assets\_Scripts_v2\Animatable\TrampolinePlatformAnimatable.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\BreakableBoxAudible.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\BreakableBoxSFX.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\ButtonAudible.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\ButtonSFX.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\DoorAudible.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\DoorSFX.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\Enemies\PhantomAudible.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\Enemies\PhantomSFX.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\Enemies\PopcornAudible.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\Enemies\PopcornSFX.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\Enemies\TrampolineAudible.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\Enemies\TrampolineSFX.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\HammerAudible.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\HammerSFX.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\LCDInterfaceAudible.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\LCDInterfaceSFX.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\NeedleAudible.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\NeedleSFX.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\ResultsAudible.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\ResultsSFX.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\RoomAudible.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\RoomSFX.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\YuniAudible.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\Audible\YuniSFX.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\AudibleNames.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\SFX.cs" />
+     <Compile Include="Assets\_Scripts_v2\Audio\SoundManager.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Bayesian Network\BayesianNetwork.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Bayesian Network\DenominatorMastery.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Bayesian Network\LearnerModelingComponent.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\BayesTesting.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Base.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\DistGadt.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Finite\FiniteDist.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Finite\FiniteExtensions.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Histogram.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Inference\Importance.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Inference\MetropolisHastings.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Inference\Pimh.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Inference\Prior.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Inference\PriorWeighted.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Inference\Smc.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\ItemProb.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\KullbackLeibler.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\LogNormalCreate.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\ParallelSampler.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Primitive\Beta.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Primitive\Dirichlet.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Primitive\Exponential.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Primitive\Gamma.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Primitive\LogNormal.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Primitive\MultiVariateNormal.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Primitive\Normal.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Primitive\Poisson.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Primitive\PrimitiveDist.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Primitive\StudentT.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Primitive\Uniform.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Prob.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Sampler.cs" />
+     <Compile Include="Assets\_Scripts_v2\Bayesian\Plugins\ProbabilityMonad\Samples.cs" />
+     <Compile Include="Assets\_Scripts_v2\Breakables\BreakableObject.cs" />
+     <Compile Include="Assets\_Scripts_v2\Breakables\BreakablePiece.cs" />
+     <Compile Include="Assets\_Scripts_v2\Breakables\BreakableSprite.cs" />
+     <Compile Include="Assets\_Scripts_v2\Breakables\BreakerCollider.cs" />
+     <Compile Include="Assets\_Scripts_v2\Camera\CameraController_v2.cs" />
+     <Compile Include="Assets\_Scripts_v2\Enemies\Body.cs" />
+     <Compile Include="Assets\_Scripts_v2\Enemies\Enemy.cs" />
+     <Compile Include="Assets\_Scripts_v2\Enemies\EnemyMovement.cs" />
+     <Compile Include="Assets\_Scripts_v2\Enemies\Popcorn.cs" />
+     <Compile Include="Assets\_Scripts_v2\Enemies\PopcornMovement.cs" />
+     <Compile Include="Assets\_Scripts_v2\Enemies\ResultsPosition.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\Characters\Yuni\DropPiecePosition.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\Characters\Yuni\LiftedPiecePosition.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\Characters\Yuni\PlayerGem.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\Characters\Yuni\PlayerYuni.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\Characters\Yuni\SkyGem.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\Dialogue\CutsceneGraphic.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\Dialogue\DialogueBox.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\Dialogue\DialogueInterface.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\Dialogue\DialogueManager_v2.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\Dialogue\DialogueTest.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\DoorController.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\GameController_v7.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\ImageManager.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\ImageUI.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\PauseController_v2.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\PauseOverlay.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\SpawnPointManager_v2.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\Visible\DialogueVisible.cs" />
+     <Compile Include="Assets\_Scripts_v2\GameController\Visible\Visible.cs" />
+     <Compile Include="Assets\_Scripts_v2\Health\HealthCircle.cs" />
+     <Compile Include="Assets\_Scripts_v2\Health\HealthLabel.cs" />
+     <Compile Include="Assets\_Scripts_v2\HintBubble\HintBubbleSkyPiece.cs" />
+     <Compile Include="Assets\_Scripts_v2\Mobile\MobileUIManager.cs" />
+     <Compile Include="Assets\_Scripts_v2\Partitioning\ClonePosition.cs" />
+     <Compile Include="Assets\_Scripts_v2\Partitioning\OverflowPosition.cs" />
+     <Compile Include="Assets\_Scripts_v2\Partitioning\PartitionableObject_v2.cs" />
+     <Compile Include="Assets\_Scripts_v2\Partitioning\PartitionableSprite.cs" />
+     <Compile Include="Assets\_Scripts_v2\Partitioning\PartitionedClone_v2.cs" />
+     <Compile Include="Assets\_Scripts_v2\Partitioning\Results\ResultsUI.cs" />
+     <Compile Include="Assets\_Scripts_v2\Partitioning\UnderflowPosition.cs" />
+     <Compile Include="Assets\_Scripts_v2\Partitioning\ZoomReference.cs" />
+     <Compile Include="Assets\_Scripts_v2\Pedagogical Component\AbstractPedagogicalComponent.cs" />
+     <Compile Include="Assets\_Scripts_v2\Pedagogical Component\DummyPedagogicalComponent.cs" />
+     <Compile Include="Assets\_Scripts_v2\Pedagogical Component\PedagogicalComponent_v2.cs" />
+     <Compile Include="Assets\_Scripts_v2\Player\NumeratorLabel.cs" />
+     <Compile Include="Assets\_Scripts_v2\Saving\DenominatorMasteryData.cs" />
+     <Compile Include="Assets\_Scripts_v2\Saving\GameData.cs" />
+     <Compile Include="Assets\_Scripts_v2\Saving\HollowBlockData.cs" />
+     <Compile Include="Assets\_Scripts_v2\Saving\LearnerModelData.cs" />
+     <Compile Include="Assets\_Scripts_v2\Saving\PartitionableObjectData.cs" />
+     <Compile Include="Assets\_Scripts_v2\Saving\SavePoint.cs" />
+     <Compile Include="Assets\_Scripts_v2\Saving\SavePointText.cs" />
+     <Compile Include="Assets\_Scripts_v2\Saving\SceneData.cs" />
+     <Compile Include="Assets\_Scripts_v2\Saving\SkyBlockData.cs" />
+     <Compile Include="Assets\_Scripts_v2\Saving\SkyFragmentData.cs" />
+     <Compile Include="Assets\_Scripts_v2\Saving\UserData.cs" />
+     <Compile Include="Assets\_Scripts_v2\Saving\YuniData.cs" />
+     <Compile Include="Assets\_Scripts_v2\Scene Functionality\HollowBlockController.cs" />
+     <Compile Include="Assets\_Scripts_v2\Scene Functionality\PlayerDeathManager_v2.cs" />
+     <Compile Include="Assets\_Scripts_v2\Scene Functionality\SceneController.cs" />
+     <Compile Include="Assets\_Scripts_v2\Scene Functionality\SkyBlockController.cs" />
+     <Compile Include="Assets\_Scripts_v2\Scene Functionality\Spawn Points and Entrances\Entrance_v2.cs" />
+     <Compile Include="Assets\_Scripts_v2\Scene Functionality\StabilityController.cs" />
+     <Compile Include="Assets\_Scripts_v2\Screens\ChooseGenderScreen.cs" />
+     <Compile Include="Assets\_Scripts_v2\Screens\LevelSelector.cs" />
+     <Compile Include="Assets\_Scripts_v2\Screens\NameInputBox.cs" />
+     <Compile Include="Assets\_Scripts_v2\Screens\SceneNamesReader.cs" />
+     <Compile Include="Assets\_Scripts_v2\Screens\ScrollSnapRect.cs" />
+     <Compile Include="Assets\_Scripts_v2\Screens\ScrollSnapRect1.cs" />
+     <Compile Include="Assets\_Scripts_v2\Screens\ScrollSnapRect2.cs" />
+     <Compile Include="Assets\_Scripts_v2\Screens\SelectSceneScreen.cs" />
+     <Compile Include="Assets\_Scripts_v2\Screens\StagePopup.cs" />
+     <Compile Include="Assets\_Scripts_v2\Screens\TopicPopup.cs" />
+     <Compile Include="Assets\_Scripts_v2\Screens\UserLoadOptionsScreen.cs" />
+     <Compile Include="Assets\_Scripts_v2\Screens\UsersProgressScreen.cs" />
+     <Compile Include="Assets\_Scripts_v2\Stage Features\ChangingBlocks.cs" />
+     <Compile Include="Assets\_Scripts_v2\Stage Features\ManualPlatform.cs" />
+     <Compile Include="Assets\_Scripts_v2\Stage Features\ManualStabilityPlatform.cs" />
+     <Compile Include="Assets\_Scripts_v2\Stage Features\MovingPlatform.cs" />
+     <Compile Include="Assets\_Scripts_v2\Stage Features\RiggedPlatform.cs" />
+     <Compile Include="Assets\_Scripts_v2\Stage Features\StabilityDependentPlatform.cs" />
+     <Compile Include="Assets\_Scripts_v2\Stage Features\Triggerable.cs" />
+     <Compile Include="Assets\_Scripts_v2\Stage Features\TriggersManager.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\BossCutscene.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\BoxSighted.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\EnableYarnballAndHammer.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\HammerCutscene.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\HitCheck.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\LockedDoorsCutscene.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\MisplacedPieces.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\NeedleAndHookTutorial.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\OneTimeFragmentCatcher.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\PickupAndFillTutorial.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\PreBossTutorialCutscene.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\SliceAndFillTutorial.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\SpawnFragmentPiece.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\SubdivisionTutorialCutscene.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\ToHomeCollider.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\TutorialController.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\TutorialEndCutscene.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\TutorialHandler.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\TutorialHandlerCarryingItems.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\TutorialHandlerFixingBoxes.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\TutorialHandlerPowerCharm.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\TutorialHandlerUnstableRoom.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\TutorialHandlerUsingHammer.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\TutorialHandlerUsingNeedle.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\ZeroYarnballCutscene.cs" />
+     <Compile Include="Assets\_Scripts_v2\Tutorials\ZeroYarnballSetter.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\DressingRoom.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\DressingRoomLeftContainer.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\DressingRoomParent.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\Health UI\HealthCounter.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\HintBubble\BubbleAnimatable.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\HintBubble\HammerBubble.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\HintBubble\HintBubbleManager.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\HintBubble\NeedleBubble.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\HintBubble\StableAreaAnimatable.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDBlock.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDBlock_v2.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDBlockColor.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDBlockHolder.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDBlockHolder_v2.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDBlockOutline.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDEffectEnemy.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDEffectHammer.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDEffectYarnball.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDInterface_v2.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDInterface_v3.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDManager.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDMaxLength.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDMaxSteps.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDNumberlineDemo.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDThreadSource.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\LCDYarnball.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\LCD\PartitioningParent.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\Loading Screen\LoadingScreen.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\Loading Screen\LoadSceneButton.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\Number Line\Fraction.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\Number Line\Highlight.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\Number Line\HighlightObject.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\Number Line\NumberLine.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\Number Line\StabilityNumberLine.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\Number Line\StabilityPointer.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\Skin.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\SkinContainer.cs" />
+     <Compile Include="Assets\_Scripts_v2\UI\Weapon UI\WeaponUI.cs" />
+     <Compile Include="Assets\_Scripts_v2\Utils\BreakAllBlocks.cs" />
+     <Compile Include="Assets\_Scripts_v2\Utils\CloneBuilder_v2.cs" />
+     <Compile Include="Assets\_Scripts_v2\Utils\GameControllerInitiation.cs" />
+     <Compile Include="Assets\_Scripts_v2\Utils\RefillAllBlocks.cs" />
+     <Compile Include="Assets\_Scripts_v2\Utils\Tags.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\CharacterMotion.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\Follow.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SkinnedMeshCombiner.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpringBone.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpringCollider.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpringManager.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpriteCycle.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpriteCycleParallax.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\Bone2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\Control.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\EditorUpdaterProxy.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\Ik2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkCCD2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkGroup.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkLimb2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkSolver2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkSolver2DCCD.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkSolver2DLimb.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\MathUtils.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\Pose.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\PoseManager.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\SpriteMesh.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\SpriteMeshAnimation.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\SpriteMeshInstance.cs" />
+     <Compile Include="Assets\DoorHighlightScript.cs" />
+     <Compile Include="Assets\HammerChildCollisionDetection.cs" />
+     <Compile Include="Assets\HammerEffect.cs" />
+     <Compile Include="Assets\HookPoint.cs" />
+     <Compile Include="Assets\Images\Discord UI\Animations\Rotate_Gear_MainMenu.cs" />
+     <Compile Include="Assets\Images\Discord UI\Animations\Thread_Controller.cs" />
+     <Compile Include="Assets\KY_effects\Script\ConGUI.cs" />
+     <Compile Include="Assets\KY_effects\Script\Lighting.cs" />
+     <Compile Include="Assets\MagicParticlesLite\Script.cs" />
+     <Compile Include="Assets\Particle Ribbon by Moonflower Carnivore\Scripts\randomParticleRotation.cs" />
+     <Compile Include="Assets\Particle Ribbon by Moonflower Carnivore\Scripts\ReverseNormals.cs" />
+     <Compile Include="Assets\Particle Ribbon by Moonflower Carnivore\Scripts\rotation.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\CameraTarget.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectController.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectDemo.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectShaderPropertyStr.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\RenderEffect.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\TransformExtension.cs" />
+     <Compile Include="Assets\PartitionableObjectOutline.cs" />
+     <Compile Include="Assets\PinwheelFantasyEffect\Script\DemoManager.cs" />
+     <Compile Include="Assets\PinwheelFantasyEffect\Script\FairyDustRandomPosition.cs" />
+     <Compile Include="Assets\PinwheelFantasyEffect\Script\FairyMeteorAddForceDemo.cs" />
+     <Compile Include="Assets\PinwheelFantasyEffect\Script\Fireball.cs" />
+     <Compile Include="Assets\PinwheelFantasyEffect\Script\Spin.cs" />
+     <Compile Include="Assets\PinwheelFantasyEffect\Script\Test.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\ToggleButton.cs" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_5_Partitioning_2_Hint_Mobile.txt" />
+     <None Include="Assets\_Text Files\Additional Dialogue\Backstage\Backstage_Skyfall.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\IKnewIt_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_X_YarnballPickupHint_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\PreBossCutscene\Boss_5.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_3_Interact_Hint_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial1\Tutorial1_2_Mission_UseDoor.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\WhatWasThatNoise_Mobile.txt" />
+     <None Include="Assets\_Text Files\Ringleader Encounter\Ringleader_Dialogue_3.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial2\Tutorial2_hint_4.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial2\Tutorial2_dialogue_6.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial5\Tutorial5_hint_1.txt" />
+     <None Include="Assets\_Text Files\Boss\Hit1\Boss_Hit_2.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_3_StrangeBox_2.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\MovementHint.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Hit2\Boss_Hit_3.txt" />
+     <None Include="Assets\_Text Files\PreBossCutscene\Boss_5.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\New Mechanics\NewMechanic_LockedDoor.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial5\Tutorial5_hint_1.txt" />
+     <None Include="Assets\_Text Files\Boss\Retry2\Boss_Retry3.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_X_YarnballSpotted.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\New Mechanics\NewMechanic_SliceAndFill_TooHeavy.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial2\Tutorial2_hint_3.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_X_Spool_Pickup.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial6\Tutorial5_dialogue_7.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial1\Tutorial1_7_Mission_FixBox.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Dialogue3\Boss3_Hit4.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Mission_DoorSpotted_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_3_Interact_Hint_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_5_Partitioning_4.txt" />
+     <None Include="Assets\Particle Ribbon by Moonflower Carnivore\Shaders\Particle Alpha Blend HDR.shader" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial5\Tutorial5_dialogue_4.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Hit1\Boss_Hit_4.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial3\Tutorial3_hint_1.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_Charging.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_5_Partitioning_3.txt" />
+     <None Include="Assets\_Text Files Tagalized\PreBossCutscene\Boss_3.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial6\Tutorial5_dialogue_4.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\JumpHint_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial2\Tutorial2_hint_5.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_X_HammerSpotted.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_3_Interact.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Hit1\Boss_Hit_2.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial6\Tutorial5_dialogue_4.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial1\Tutorial1_6_MeterShowsStability.txt" />
+     <None Include="Assets\_Text Files Tagalized\PreBossCutscene\Boss_4.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial3\Tutorial3_hint_6.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\New Mechanics\NewMechanic_SliceAndFill_Slice_Hint.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\New Mechanics\NewMechanic_Pickup_Hint.txt" />
+     <None Include="Assets\_Text Files\Tutorial\New Mechanics\NewMechanic_Pickup_Hint.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Retry1\Boss_Retry1.txt" />
+     <None Include="Assets\_Text Files\PreBossCutscene\Boss_2.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_4_NeedleThrow.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_4_BrokenSky.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial6\Tutorial5_hint_3.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_4_NeedleThrow_Hint.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial2\Tutorial2_dialogue_5.txt" />
+     <None Include="Assets\PinwheelFantasyEffect\README.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial2\Tutorial2_dialogue_3.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial3\Tutorial3_hint_6.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Mission_DropSkyFragment_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial5\Tutorial5_hint_2.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial2\Tutorial2_hint_4.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_Hint_Defeat_Enemy.txt" />
+     <None Include="Assets\_Text Files\Boss\Retry1\Boss_Retry3.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial6\Tutorial5_dialogue_1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial1\Tutorial1_6_MeterShowsStability.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_YarnballSpotted.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial3\Tutorial3_dialogue_6.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Mission_LeaveRoom.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_3_StrangeBox_1.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Introduction.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial5\Tutorial5_dialogue_5.txt" />
+     <None Include="Assets\_Text Files Tagalized\Additional Dialogue\Backstage\Backstage_Skyfall.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial2\Tutorial2_dialogue_4.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial3\Tutorial3_dialogue_1.txt" />
+     <None Include="Assets\Anima2D\Examples\Shaders\VisibleInsideMask.shader" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Mission_BlueObject_Mobile.txt" />
+     <None Include="Assets\_Text Files\PreBossCutscene\Boss_4.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\DoorSpotted_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial3\Tutorial3_hint_5.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial2\Tutorial2_dialogue_6.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\ThisIsAPieceOfTheSky_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_LCDClickArrows.txt" />
+     <None Include="Assets\_Text Files\Ringleader Encounter\Ringleader_Dialogue_8.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial1\Tutorial1_0_CarryOverride.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_7_Spool_FirstFall.txt" />
+     <None Include="Assets\_Text Files\Ringleader Encounter\Ringleader_Dialogue_5.txt" />
+     <None Include="Assets\Anima2D\Examples\Shaders\VisibleOutsideMask.shader" />
+     <None Include="Assets\_Text Files\Tutorial\IBetSkyFragmentsWillFix_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial1\Tutorial1_3_RoomIsBreaking.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial3\Tutorial3_dialogue_3.txt" />
+     <None Include="Assets\_Text Files\Ringleader Encounter\Ringleader_Dialogue_7.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\IBetSkyFragmentsWillFix_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial1\Tutorial1_1_DoorAhead.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Retry2\Boss_Retry1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial3\Tutorial3_dialogue_7.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial6\Tutorial5_dialogue_5.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\New Mechanics\NewMechanic_FallenFragment.txt" />
+     <None Include="Assets\Anima2D\Version.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_EnemySighted.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_3_StrangeBox_3.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial5\Tutorial5_dialogue_2.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_LCDDefeatEnemy.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_3_Interact_Hint.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial5\Tutorial5_dialogue_3.txt" />
+     <None Include="Assets\_Text Files\PreBossCutscene\Boss_3.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_LCDHitYarnball.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial3\Tutorial3_dialogue_5.txt" />
+     <None Include="Assets\_Text Files\Scene Names\SCENENAMES_SUBTRACTION_SIMILAR.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_YarnballPickedup.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial5\Tutorial5_hint_5.txt" />
+     <None Include="Assets\_Text Files\Tutorial\New Mechanics\NewMechanic_BoxFilled.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial1\Tutorial1_7_Mission_FixBox.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Dialogue3\Boss3_Hit2.txt" />
+     <None Include="Assets\_Text Files Tagalized\PreBossCutscene\PreBoss_1.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial3\Tutorial3_dialogue_2.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_2_Jump.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial6\Tutorial5_dialogue_8.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_4_PickedUpNeedle.txt" />
+     <None Include="Assets\_Text Files Tagalized\Hints\ManualStabilityPlatformHint.txt" />
+     <None Include="Assets\_Text Files\Ringleader Encounter\Ringleader_Dialogue_1.txt" />
+     <None Include="Assets\_Text Files Tagalized\YuniMessage\YuniMessage0_CantCarry.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_SpoolTaken.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial3\Tutorial3_dialogue_1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial3\Tutorial3_hint_3.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Mission_LeaveRoom.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial5\Tutorial5_dialogue_5.txt" />
+     <None Include="Assets\_Text Files\PreBossCutscene\PreBoss_3.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_X_Switch_Hint.txt" />
+     <None Include="Assets\_Text Files\PreBossCutscene\PreBoss_2.txt" />
+     <None Include="Assets\_Text Files\PreBossCutscene\Boss_1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial2\Tutorial2_dialogue_3.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Mission_WhatsThatBlueObject_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_X_Switch_Hint_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial2\Tutorial2_hint_2.txt" />
+     <None Include="Assets\_Text Files\Tutorial\New Mechanics\NewMechanic_SliceAndFill_TooHeavy.txt" />
+     <None Include="Assets\_Text Files\Tutorial\New Mechanics\NewMechanic_SliceAndFill_PickupYarnball_Hint.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Retry2\Boss_Retry3.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Mission_FindAWayOut_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Mission_UseBoxToLeaveRoom.txt" />
+     <None Include="Assets\_Text Files\YuniMessage\YuniMessage1_CantOperateManualPlatforms.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\MovementHint_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial6\Tutorial5_dialogue_6.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Retry2\Boss_Retry2.txt" />
+     <None Include="Assets\_Text Files\Hints\PickupHint.txt" />
+     <None Include="Assets\_Text Files\Tutorial\JumpDialogue_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\JustABoxForPlatform_Mobile.txt" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\effect_distortion_mask.shader" />
+     <None Include="Assets\_Text Files Tagalized\Hints\ManualPlatformHint.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial5\Tutorial5_dialogue_2-1.txt" />
+     <None Include="Assets\_Text Files\PreBossCutscene\Boss_8.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_3_StrangeBox_2.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\_Text Files Tagalized\PreBossCutscene\Boss_8.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Dialogue3\Boss3_Hit5.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial5\Tutorial5_dialogue_2-1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial6\Tutorial5_dialogue_5.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial1\Tutorial1_5_DoorLocked.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Dialogue3\Boss3_Hit3.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Mission_BlueObject_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_Charging_Hint_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Retry1\Boss_Retry2.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_LCDEssenceSynced.txt" />
+     <None Include="Assets\_Text Files\Boss\Hit1\Boss_Hit_1.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial6\Tutorial5_dialogue_6.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Mission_WhatsThatBlueObject_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial3\Tutorial3_hint_2.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial6\Tutorial5_hint_1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_4_BrokenSky.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial3\Tutorial3_hint_4.txt" />
+     <None Include="Assets\_Text Files\Boss\Dialogue3\Boss3_Hit2.txt" />
+     <None Include="Assets\_Text Files\Boss\Dialogue3\Boss3_Hit5.txt" />
+     <None Include="Assets\_Text Files\Tutorial\WhatsThatBlueObject_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\New Mechanics\NewMechanic_SliceAndFill_Slice_Hint.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial1\Tutorial1_1_DoorAhead.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial1\Tutorial1_0_CarryOverride.txt" />
+     <None Include="Assets\_Text Files\Tutorial\WhatWasThatNoise_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial6\Tutorial5_dialogue_3.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_StabilizeArea_Hint.txt" />
+     <None Include="Assets\_Text Files Tagalized\PreBossCutscene\Boss_1.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_X_SpoolTaken.txt" />
+     <None Include="Assets\_Text Files\Additional Dialogue\Backstage\Backstage_HINT_CarryBox.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial6\Tutorial5_hint_4.txt" />
+     <None Include="Assets\_Text Files Tagalized\Additional Dialogue\Backstage\Backstage_HINT_CarryBox.txt" />
+     <None Include="Assets\_Text Files\Tutorial\New Mechanics\NewMechanic_FillBox.txt" />
+     <None Include="Assets\_Text Files\Scene Names\SCENENAMES_DISSIMILAR.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial3\Tutorial3_dialogue_6.txt" />
+     <None Include="Assets\KY_effects\MagicEffectsPackFree\ReadMe.txt" />
+     <None Include="Assets\_Text Files\Ringleader Encounter\Ringleader_Dialogue_6.txt" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddSoftEffect.shader" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_LCDClickWhereToShoot.txt" />
+     <None Include="Assets\_Text Files\Boss\Hit1\Boss_Hit_3.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial1\Tutorial1_8_ThatShouldDoIt.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_YarnballPickupHint_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_1_Walk.txt" />
+     <None Include="Assets\_Text Files\Ringleader Encounter\Ringleader_Dialogue_2.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_X_EnemySighted.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\TutorialEnd.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial5\Tutorial5_dialogue_6.txt" />
+     <None Include="Assets\_Text Files\PreBossCutscene\Boss_9.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\New Mechanics\NewMechanic_LockedDoor_Hint.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_X_HammerPickedup.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial2\Tutorial2_hint_5.txt" />
+     <None Include="Assets\_Text Files\Boss\Dialogue3\Boss3_Hit3.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial6\Tutorial5_hint_5.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_HammerSpotted.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial6\Tutorial5_hint_2.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\New Mechanics\NewMechanic_FillBox_Hint_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Mission_DropSkyFragment_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Introduction_MoveMe.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial3\Tutorial3_dialogue_4.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial3\Tutorial3_dialogue_5.txt" />
+     <None Include="Assets\_Text Files\Scene Names\SCENENAMES_RANDOM.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial2\Tutorial2_dialogue_1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_X_DefeatEnemy_Hint.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial2\Tutorial2_hint_3.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial5\Tutorial5_hint_4.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_7_Spool_FirstFall.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial6\Tutorial5_hint_3.txt" />
+     <None Include="Assets\_Text Files\Tutorial\IKnewIt_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\JumpHint_Mobile.txt" />
+     <None Include="Assets\_Text Files\PreBossCutscene\Boss_6.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Proceed.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_Switch_Hint.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\New Mechanics\NewMechanic_SliceAndFill_PickupYarnball_Hint.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_3_StrangeBox_1.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial2\Tutorial2_dialogue_5.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial1\Tutorial1_4_BoxBrokeAsWell.txt" />
+     <None Include="Assets\_Text Files\Boss\Retry1\Boss_Retry2.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_2_Jump.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Introduction_MoveMe.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_3_Interact_Hint.txt" />
+     <None Include="Assets\_Text Files\Boss\Hit2\Boss_Hit_4.txt" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Blended Premmultiply.shader" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_6_Ravine.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial6\Tutorial5_dialogue_7.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial1\Tutorial1_4_BoxBrokeAsWell.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_LCDSleepingPopcornSpotted.txt" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticlePremultiplyBlend.shader" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial6\Tutorial5_hint_1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial1\Tutorial1_3_RoomIsBreaking.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial3\Tutorial3_hint_2.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial2\Tutorial2_dialogue_4.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial5\Tutorial5_dialogue_1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial1\Tutorial1_2_Mission_UseDoor.txt" />
+     <None Include="Assets\_Text Files Tagalized\PreBossCutscene\PreBoss_3.txt" />
+     <None Include="Assets\_Text Files\Boss\Retry1\Boss_Retry1.txt" />
+     <None Include="Assets\Particlecollection_Free samples\READ ME.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_3_StrangeBox_3.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_Switch_Hint_Mobile.txt" />
+     <None Include="Assets\Anima2D\Examples\Shaders\Unlit-Alpha-Cull-off.shader" />
+     <None Include="Assets\Anima2D\Licenses.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial5\Tutorial5_hint_3.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Retry1\Boss_Retry3.txt" />
+     <None Include="Assets\_Text Files\Hints\ManualStabilityPlatformHint.txt" />
+     <None Include="Assets\_Text Files\Boss\Retry2\Boss_Retry2.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_X_Hint_Defeat_Enemy.txt" />
+     <None Include="Assets\_Text Files\Tutorial\New Mechanics\NewMechanic_FallenFragment.txt" />
+     <None Include="Assets\_Text Files\Tutorial\New Mechanics\NewMechanic_SliceAndFill_Slice_Hint_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial3\Tutorial3_dialogue_3.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial6\Tutorial5_dialogue_3.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+     <None Include="Assets\_Text Files Tagalized\PreBossCutscene\Boss_7.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_4_PickedUpNeedle.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial5\Tutorial5_hint_2.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial6\Tutorial5_dialogue_1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Hints\DoorHint.txt" />
+     <None Include="Assets\_Text Files\Hints\ManualPlatformHint.txt" />
+     <None Include="Assets\Anima2D\Examples\Shaders\VertexLitOneDirectional.shader" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial5\Tutorial5_hint_4.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_DefeatEnemy_Hint.txt" />
+     <None Include="Assets\_Text Files\Tutorial\JustABox_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Hints\ConfidenceSubtraction_Mission1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial3\Tutorial3_dialogue_2.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_X_StabilizeArea_Hint.txt" />
+     <None Include="Assets\_Text Files\Scene Names\SCENENAMES_ADDITION_SIMILAR.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_LCDTryHammer.txt" />
+     <None Include="Assets\_Text Files\Tutorial\ThisIsAPieceOfTheSky_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_5_Partitioning_2_Hint.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_HammerPickedup.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Hit1\Boss_Hit_1.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Mission_FindAWayOut_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_5_Partitioning_1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Hit2\Boss_Hit_4.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial3\Tutorial3_hint_4.txt" />
+     <None Include="Assets\_Text Files Tagalized\PreBossCutscene\Boss_10.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial6\Tutorial5_hint_2.txt" />
+     <None Include="Assets\_Text Files Tagalized\Additional Dialogue\Backstage\Backstage_Break.txt" />
+     <None Include="Assets\_Text Files Tagalized\PreBossCutscene\Boss_9.txt" />
+     <None Include="Assets\_Text Files\Boss\Hit2\Boss_Hit_3.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_LCDSoulSync.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\JustABoxForPlatform_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial6\Tutorial5_hint_4.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial5\Tutorial5_dialogue_4.txt" />
+     <None Include="Assets\_Text Files Tagalized\Hints\PickupHint.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial3\Tutorial3_dialogue_7.txt" />
+     <None Include="Assets\_Text Files\Hints\DoorHint.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\WhatsThatBlueObject_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\PreBossCutscene\PreBoss_2.txt" />
+     <None Include="Assets\_Text Files\Tutorial\New Mechanics\NewMechanic_LockedDoor_Hint.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial1\Tutorial1_8_ThatShouldDoIt.txt" />
+     <None Include="Assets\_Text Files\Tutorial\FindAWayOut_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\YuniCantTouchBox_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_SpoolSpotted.txt" />
+     <None Include="Assets\_Text Files\Boss\Hit2\Boss_Hit_1.txt" />
+     <None Include="Assets\_Text Files\Tutorial\DoorSpotted_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial3\Tutorial3_hint_1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Hit2\Boss_Hit_2.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\JustABox_Mobile.txt" />
+     <None Include="Assets\_Text Files\PreBossCutscene\Boss_7.txt" />
+     <None Include="Assets\_Text Files\Tutorial\TutorialEnd.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\New Mechanics\NewMechanic_FillBox.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial2\Tutorial2_dialogue_2.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial5\Tutorial5_dialogue_2.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\New Mechanics\NewMechanic_FillBox_Hint.txt" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddEffect.shader" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_X_YarnballPickupHint.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial2\Tutorial2_dialogue_1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial2\Tutorial2_hint_1.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Mission_CarryBoxForPlatform_Mobile.txt" />
+     <None Include="Assets\_Text Files\Ringleader Encounter\Ringleader_Dialogue_4.txt" />
+     <None Include="Assets\Particle Ribbon by Moonflower Carnivore\readme_Simple_Particle_Ribbon.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Hit2\Boss_Hit_1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial5\Tutorial5_dialogue_3.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Proceed.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_1_Walk.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial3\Tutorial3_hint_3.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial5\Tutorial5_hint_3.txt" />
+     <None Include="Assets\_Text Files Tagalized\PreBossCutscene\Boss_2.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_Spool_Pickup.txt" />
+     <None Include="Assets\Anima2D\Readme.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial6\Tutorial5_dialogue_2.txt" />
+     <None Include="Assets\_Text Files\Boss\Hit1\Boss_Hit_4.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Mission_CarryBoxForPlatform_Mobile.txt" />
+     <None Include="Assets\_Text Files\Notes\JSON Object Rules.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Mission_UseBoxToLeaveRoom.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_5_Partitioning_2.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial5\Tutorial5_dialogue_1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Hit1\Boss_Hit_3.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\New Mechanics\NewMechanic_Pickup_Hint_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\JumpDialogue_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial1\Tutorial1_5_DoorLocked.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial6\Tutorial5_dialogue_8.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Dialogue3\Boss3_Retry1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\New Mechanics\NewMechanic_SliceAndFill_Slice_Hint_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\New Mechanics\NewMechanic_BoxFilled.txt" />
+     <None Include="Assets\_Text Files Tagalized\PreBossCutscene\Boss_6.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial5\Tutorial5_dialogue_6.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial2\Tutorial2_hint_1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Boss\Dialogue3\Boss3_Hit1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Introduction.txt" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Additive.shader" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_X_SpoolSpotted.txt" />
+     <None Include="Assets\_Text Files\YuniMessage\YuniMessage0_CantCarry.txt" />
+     <None Include="Assets\_Text Files\Tutorial\New Mechanics\NewMechanic_FillBox_Hint.txt" />
+     <None Include="Assets\_Text Files\Boss\Dialogue3\Boss3_Hit1.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_4_NeedleThrow_Hint_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\MovementHint.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_YarnballPickupHint.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial6\Tutorial5_dialogue_2.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial3\Tutorial3_dialogue_4.txt" />
+     <None Include="Assets\_Text Files\Tutorial\New Mechanics\NewMechanic_FillBox_Hint_Mobile.txt" />
+     <None Include="Assets\_Text Files\Boss\Retry2\Boss_Retry1.txt" />
+     <None Include="Assets\_Text Files\Boss\Dialogue3\Boss3_Hit4.txt" />
+     <None Include="Assets\_Text Files\Ringleader Encounter\Ringleader_Dialogue_10.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial2\Tutorial2_dialogue_2.txt" />
+     <None Include="Assets\_Text Files\PreBossCutscene\PreBoss_1.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Mission_DoorSpotted_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial3\Tutorial3_hint_5.txt" />
+     <None Include="Assets\_Text Files\Tutorial\New Mechanics\NewMechanic_LockedDoor.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\FindAWayOut_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial6\Tutorial5_hint_5.txt" />
+     <None Include="Assets\_Text Files\Boss\Hit2\Boss_Hit_2.txt" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleBlendEffect.shader" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial_X_YarnballPickedup.txt" />
+     <None Include="Assets\_Text Files\PreBossCutscene\Boss_10.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial2\Tutorial2_hint_2.txt" />
+     <None Include="Assets\_Text Files\Tutorial\New Mechanics\NewMechanic_Pickup_Hint_Mobile.txt" />
+     <None Include="Assets\_Text Files\Ringleader Encounter\Ringleader_Dialogue_9.txt" />
+     <None Include="Assets\_Text Files\Boss\Dialogue3\Boss3_Retry1.txt" />
+     <None Include="Assets\_Text Files\Hints\ConfidenceSubtraction_Mission1.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_X_Charging_Hint.txt" />
+     <None Include="Assets\_Text Files Tagalized\YuniMessage\YuniMessage1_CantOperateManualPlatforms.txt" />
+     <None Include="Assets\_Text Files\Additional Dialogue\Backstage\Backstage_Break.txt" />
+     <None Include="Assets\_Text Files\Tutorial\YuniCantTouchBox_Mobile.txt" />
+     <None Include="Assets\_Text Files\Tutorial\Tutorial_3_Interact.txt" />
+     <None Include="Assets\_Text Files\Tutorial\MovementHint_Mobile.txt" />
+     <None Include="Assets\_Text Files Tagalized\Tutorial\Tutorial5\Tutorial5_hint_5.txt" />
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>C:/Users/Jarl Brent/Desktop/Current School Work/STMETRE/Discord/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>C:/Users/Jarl Brent/Desktop/Current School Work/STMETRE/Discord/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.DataPrivacy">
+ <HintPath>C:/Users/Jarl Brent/Desktop/Current School Work/STMETRE/Discord/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.BaselibModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.FileSystemHttpModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTrackingModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StyleSheetsModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TimelineModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Locator">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="Vuforia.UnityExtensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-2017.3-Editor">
+ <HintPath>C:/Users/Jarl Brent/Desktop/Current School Work/STMETRE/Discord/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-2017.3-Runtime">
+ <HintPath>C:/Users/Jarl Brent/Desktop/Current School Work/STMETRE/Discord/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="MathNet.Numerics">
+ <HintPath>C:/Users/Jarl Brent/Desktop/Current School Work/STMETRE/Discord/Assets/_Scripts_v2/Bayesian/Plugins/MathNet.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Users/Jarl Brent/Desktop/Current School Work/STMETRE/Discord/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>C:/Users/Jarl Brent/Desktop/Current School Work/STMETRE/Discord/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Editor">
+ <HintPath>C:/Users/Jarl Brent/Desktop/Current School Work/STMETRE/Discord/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.StandardEvents">
+ <HintPath>C:/Users/Jarl Brent/Desktop/Current School Work/STMETRE/Discord/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>C:/Users/Jarl Brent/Desktop/Current School Work/STMETRE/Discord/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.CSharp">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Win32.Primitives">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="netstandard">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+ </Reference>
+ <Reference Include="System.AppContext">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Concurrent">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.NonGeneric">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Specialized">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Annotations">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.EventBasedAsync">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Primitives">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.TypeConverter">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Console">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.Common">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Contracts">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Debug">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.FileVersionInfo">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Process">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.StackTrace">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TextWriterTraceListener">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tools">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TraceSource">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing.Primitives">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Dynamic.Runtime">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Calendars">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.DriveInfo">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Primitives">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Watcher">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.IsolatedStorage">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.MemoryMappedFiles">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Pipes">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.UnmanagedMemoryStream">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Expressions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Parallel">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Queryable">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http.Rtc">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NameResolution">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NetworkInformation">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Ping">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Primitives">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Requests">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Security">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Sockets">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebHeaderCollection">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets.Client">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ObjectModel">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.ILGeneration">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.Lightweight">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Primitives">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Reader">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.ResourceManager">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Writer">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.VisualC">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Handles">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Numerics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Formatters">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Json">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Primitives">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Xml">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Claims">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Algorithms">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Csp">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Encoding">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Primitives">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.X509Certificates">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Principal">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.SecureString">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Duplex">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Http">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.NetTcp">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Primitives">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Security">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.RegularExpressions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Overlapped">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Parallel">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Thread">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.ThreadPool">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Timer">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ValueTuple">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.ReaderWriter">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XDocument">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlDocument">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlSerializer">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath.XDocument">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript.Lang">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="Boo.Lang">
+ <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{38678678-898D-CAEB-9CB4-E268D4F56556}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

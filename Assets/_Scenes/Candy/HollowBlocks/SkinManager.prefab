@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1106457115765970}
+  m_IsPrefabParent: 1
+--- !u!1 &1106457115765970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4786143040956092}
+  - component: {fileID: 114377929203163458}
+  m_Layer: 0
+  m_Name: SkinManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4786143040956092
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1106457115765970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.20891, y: -11.17876, z: -0.14453125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114377929203163458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1106457115765970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13f9774f0c480b4293a9742e4067742, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skins:
+  - {fileID: 2100000, guid: 91d31c23ea6ac564a80b31187e3ab0d3, type: 2}
+  - {fileID: 2100000, guid: 0d023a6c0555a2f4cabdadfd7dec0670, type: 2}
+  - {fileID: 2100000, guid: 9932a6c5b2235c74d8d1b6996ca15b5d, type: 2}
+  - {fileID: 2100000, guid: aa7f80f57c29eb7429f2c9a312a7748b, type: 2}
+  - {fileID: 2100000, guid: 6bfae1f251fc63542821a7cd0c1a4808, type: 2}
+  - {fileID: 2100000, guid: 5f849d46e36b6324186c60ec9373d2e0, type: 2}
+  - {fileID: 2100000, guid: 67c173666bc4fb940a3f37dbc9755996, type: 2}
+  focusSkin: {fileID: 2100000, guid: d011568d11bbdb44eacc1dfcbfe9a87a, type: 2}
+  intangibleSkin: {fileID: 2100000, guid: ea063ad330470bf4e8a7e0eb24970c49, type: 2}
+  unliftableSkin: {fileID: 2100000, guid: 0cf13da68dc50f1488e363dd32c17118, type: 2}
+  highlights:
+  - {r: 0.654902, g: 1, b: 0.101960786, a: 1}
+  - {r: 1, g: 0.49411765, b: 0.101960786, a: 1}
+  - {r: 0.101960786, g: 0.47843137, b: 1, a: 1}
+  - {r: 0.6, g: 0.21176471, b: 1, a: 1}
+  - {r: 1, g: 0.101960786, b: 0.27058825, a: 1}
+  - {r: 1, g: 0.9019608, b: 0.101960786, a: 1}
+  - {r: 1, g: 0.101960786, b: 0.7137255, a: 1}
+  outlineStartColors:
+  - {r: 0.29803923, g: 0.40392157, b: 0.07058824, a: 1}
+  - {r: 0.70980394, g: 0.32941177, b: 0.011764706, a: 1}
+  - {r: 0.03137255, g: 0.23921569, b: 0.4392157, a: 1}
+  - {r: 0.34509805, g: 0.03137255, b: 0.43529412, a: 1}
+  - {r: 0.4392157, g: 0.101960786, b: 0.101960786, a: 1}
+  - {r: 0.45490196, g: 0.39607844, b: 0.0627451, a: 1}
+  - {r: 0.47058824, g: 0.05882353, b: 0.30588236, a: 1}
+  outlineEndColors:
+  - {r: 0.29803923, g: 0.40392157, b: 0.07058824, a: 1}
+  - {r: 0.70980394, g: 0.32941177, b: 0.011764706, a: 1}
+  - {r: 0.03137255, g: 0.23921569, b: 0.4392157, a: 1}
+  - {r: 0.34509805, g: 0.03137255, b: 0.43529412, a: 1}
+  - {r: 0.4392157, g: 0.101960786, b: 0.101960786, a: 1}
+  - {r: 0.45490196, g: 0.39607844, b: 0.0627451, a: 1}
+  - {r: 0.47058824, g: 0.05882353, b: 0.30588236, a: 1}

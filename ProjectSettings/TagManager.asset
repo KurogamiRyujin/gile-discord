@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Exit
+  - Drop
+  - Ground
+  - Needle
+  - NeedleTarget
+  - MobileButton
+  - PartitionableObject
+  - Partition Instance
+  - Door
+  - SpawnPoint
+  - NeedleObject
+  - FractionLabel
+  - FractionLabelNumerator
+  - FractionLabelBar
+  - FractionLabelDenominator
+  - Tangible
+  - Number Line
+  - Number Line Segment
+  - Current Pointer
+  - Target Pointer
+  - hintObject
+  - Dialogue Box
+  - PauseOverlay
+  - PartitionableObjectOutline
+  - Cutscene
+  - Hammer
+  - Hammer Child
+  - Initial Current Pointer
+  - PickupNeedle
+  - Numerator Label
+  - Wolf
+  - Collider
+  - EnemyPicture
+  - Hook Point
+  - Main Door
+  - ParticleEffects
+  - PlayerData
+  - LCD Answer Pointer
+  - DialogueManager
+  - Mobile UI
+  - Elevator
+  - Lever
+  - SceneRequirements
+  - HollowBlock
+  - SkyFragmentPiece
+  - SceneTag
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Wall
+  - Ground
+  - Needle
+  - Player
+  - Hollow
+  - Pause Layer
+  - Clone Layer
+  - Partition Layer
+  - Enemy Layer
+  - Pushable
+  - Door Hint
+  - Pickup Hint
+  - Hammer
+  - Wolf Spirit
+  - Yarnball
+  - Trampoline
+  - LCDUI
+  - Wall Layer
+  - HammerBreaker
+  - Breakable
+  - LCDYarnball
+  - SkyGem
+  - SkyPiece
+  - SkyBlock
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Units
+    uniqueID: 177429133
+    locked: 0
+  - name: Background
+    uniqueID: 4219138021
+    locked: 0
+  - name: Foreground
+    uniqueID: 1254097947
+    locked: 0
+  - name: Ground
+    uniqueID: 1973663817
+    locked: 0
+  - name: Below Platform
+    uniqueID: 4178683629
+    locked: 0
+  - name: Platform
+    uniqueID: 901323181
+    locked: 0
+  - name: Above Platform
+    uniqueID: 3763946333
+    locked: 0
+  - name: Door
+    uniqueID: 1824092567
+    locked: 0
+  - name: Items
+    uniqueID: 3284435539
+    locked: 0
+  - name: Hints
+    uniqueID: 720897513
+    locked: 0
+  - name: Below Player
+    uniqueID: 2262327701
+    locked: 0
+  - name: Needle
+    uniqueID: 1142627509
+    locked: 0
+  - name: Phantom
+    uniqueID: 1954701079
+    locked: 0
+  - name: Wolf Spirit
+    uniqueID: 238545967
+    locked: 0
+  - name: Pause Overlay
+    uniqueID: 3201867767
+    locked: 0
+  - name: Hollow Partition
+    uniqueID: 247697517
+    locked: 0
+  - name: FG1
+    uniqueID: 3746409847
+    locked: 0
+  - name: Gems
+    uniqueID: 2282064475
+    locked: 0
+  - name: BubbleHint
+    uniqueID: 3646844643
+    locked: 0
+  - name: Hammer
+    uniqueID: 90488547
+    locked: 0
+  - name: Player
+    uniqueID: 1267686221
+    locked: 0
+  - name: Above Player
+    uniqueID: 3469336529
+    locked: 0
+  - name: Enemy
+    uniqueID: 3008913181
+    locked: 0
+  - name: LCD Crosshair
+    uniqueID: 3304005571
+    locked: 0
+  - name: Hollow Clone
+    uniqueID: 420051663
+    locked: 0
+  - name: Clone Partition
+    uniqueID: 3162112823
+    locked: 0
+  - name: DisabledPartition
+    uniqueID: 319076699
+    locked: 0
+  - name: HighlightedPartition
+    uniqueID: 3355798595
+    locked: 0
+  - name: BrokenOriginal
+    uniqueID: 1433726547
+    locked: 0
+  - name: BrokenClone
+    uniqueID: 1044012055
+    locked: 0
+  - name: BrokenLabel
+    uniqueID: 1443427935
+    locked: 0
+  - name: BrokenTangible
+    uniqueID: 2916944573
+    locked: 0
+  - name: CloneOutline
+    uniqueID: 4259356445
+    locked: 0
+  - name: BrokenTangible
+    uniqueID: 3972561171
+    locked: 0
+  - name: PartitionBorder
+    uniqueID: 537551329
+    locked: 0
+  - name: Hollow Label
+    uniqueID: 3949890521
+    locked: 0
+  - name: UI
+    uniqueID: 2826787137
+    locked: 0
+  - name: UI Menu
+    uniqueID: 3180861315
+    locked: 0
+  - name: LCDInterface
+    uniqueID: 2741550559
+    locked: 0
+  - name: Cutscene
+    uniqueID: 458987841
+    locked: 0

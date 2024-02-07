@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: Phantom_idle
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: Bones/Upper Body
+    localPosition: {x: 0.6818644, y: -0.14081317, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.86769605, w: 0.49709523}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Upper Body/Hair
+    localPosition: {x: 3.207747, y: -0.5601797, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.9755, w: 0.21999949}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Upper Body/Head
+    localPosition: {x: 2.570006, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.9538821, w: 0.30018145}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Upper Body/Head/Right Eye
+    localPosition: {x: 0.008482873, y: 0.3807505, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.048823602, w: 0.99880743}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Upper Body/Head/Left Eye
+    localPosition: {x: 0.03949302, y: -0.7083289, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.09188397, w: 0.99576974}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Upper Body/Head/Right Ear
+    localPosition: {x: -0.5103223, y: 0.71195966, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.07687572, w: 0.9970407}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Upper Body/Head/Left Ear
+    localPosition: {x: -0.6482688, y: -0.14591655, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.034681384, w: 0.9993984}
+    localScale: {x: 0.9999997, y: 0.9999997, z: 0.9999998}
+  - path: Bones/Upper Body/Head/Left Fin
+    localPosition: {x: 0.1706519, y: -0.95856375, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.08353874, w: 0.99650455}
+    localScale: {x: 1.0000002, y: 1.0000002, z: 0.9999998}
+  - path: Bones/Upper Body/Head/Right Fin
+    localPosition: {x: -0.2915314, y: 1.1255302, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.05802571, w: 0.9983151}
+    localScale: {x: 1.0000002, y: 1.0000002, z: 0.9999998}
+  - path: Bones/Upper Body/Tail
+    localPosition: {x: -0.003658766, y: -0.010413395, z: 0}
+    localRotation: {x: -0, y: 0, z: -0.8390507, w: -0.54405326}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Upper Body/Tail/Tail Blue
+    localPosition: {x: 1.970016, y: -0.0000166893, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.82477313, w: 0.56546384}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Upper Body/Tail/Tail Blue/Tail White
+    localPosition: {x: 1.1599786, y: 0.00000023841858, z: 0}
+    localRotation: {x: -0, y: -0, z: -0.6029989, w: 0.79774207}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Upper Body/Tail/Tail Blue/Tail White/Tail End Blue
+    localPosition: {x: 0.6799885, y: -0.00001081824, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.3841261, w: 0.92328066}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Upper Body/Tail/Tail Blue/Tail End
+    localPosition: {x: 0.8463644, y: -0.2003421, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.91115177, w: 0.41207105}
+    localScale: {x: 1.0000007, y: 1.0000007, z: 0.9999998}
+  - path: Bones/Upper Body/Lower Left Wisp
+    localPosition: {x: -0.60441816, y: 2.157991, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.48422942, w: 0.8749411}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Upper Body/Lower Left Wisp/Upper Left Wisp
+    localPosition: {x: 0.7299942, y: -0.000002473593, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.78875697, w: 0.61470515}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Upper Body/Upper Left Wisp
+    localPosition: {x: -0.839725, y: 0.4023772, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.47736582, w: 0.87870467}
+    localScale: {x: 1, y: 1, z: 0.9999998}
+  - path: Bones/Upper Body/Upper Left Wisp/Upper Right Wisp
+    localPosition: {x: 1.7826641, y: 0.0000001788139, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.02694458, w: 0.99963695}
+    localScale: {x: 1, y: 1, z: 1}

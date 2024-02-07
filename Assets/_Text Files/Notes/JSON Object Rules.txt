@@ -1,0 +1,16 @@
+This file sets the convention for naming the JSON parameters of objects when saving current game state.
+Convention for PartitionableObjects is (parameters are arranged in order):
+
+PartitionableObject {
+	scene,//Scene the object belongs to
+	count,//Number which denotes its count; this is for counting multiple instances of a particular object's kind
+	posX,//x position in world transform
+	posY,//y position in world transform
+	isTangible,//value is written as either "true" or "false"; denotes whether the object has been made whole or not
+}
+
+Cutscene {
+	scene,//Scene the cutscene belongs to
+	name,//Cutscene's name
+	isTriggered,//value is written as either "true" or "false"
+}

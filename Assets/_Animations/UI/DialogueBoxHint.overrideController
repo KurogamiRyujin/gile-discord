@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DialogueBoxHint
+  m_Controller: {fileID: 9100000, guid: 0e96d2fed46dc784f87d56492334bb61, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 4c2349259fd744b4bbe7e08fa3fda45b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 08b8b09a2ba2d44468953ebf10f73029, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4a41d85365a2fdf46b6f752dd77b6612, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e5fa539cc77371f4fadc53d8584eb68c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: cbbae19f12d47cd4da72cc4352b94f00, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d817edc319823b442b1e4cffd2161acb, type: 2}
